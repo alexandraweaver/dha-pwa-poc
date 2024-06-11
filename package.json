@@ -1,5 +1,6 @@
 {
   "name": "dha-pwa-poc",
+  "short_name": "DHA PWA POC",
   "author": "Alex Alden Weaver, modified from https://github.com/MengLinMaker/PWA-Vite-React-Boilerplate",
   "description": "A proof of concept for a progressive web app using DHA components.",
   "private": true,

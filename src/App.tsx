@@ -11,7 +11,7 @@ import DhaSlider from './components/DhaSlider'
 import Footer from './components/Footer'
 import Header from './components/Header'
 
-import './App.scss'
+import './styles/output.css'
 
 function App() {
   return (

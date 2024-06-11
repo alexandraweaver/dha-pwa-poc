@@ -9,7 +9,7 @@
 function Header() {
     return (
         <div className="Header">
-            <h1>DHA PWA POC</h1>
+            <h1>DHA PWA Proof of Concept</h1>
         </div>
     )
 }

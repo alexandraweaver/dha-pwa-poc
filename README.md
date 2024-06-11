@@ -64,3 +64,13 @@ build: {
 ```
 npm run preview
 ```
+
+
+## Modifications to the Boilerplate Template
+
+### TailwindCSS
+1. TailwindCSS does not support Sass, so move code from `App.scss` to new `input.css` file
+   - https://tailwindcss.com/docs/using-with-preprocessors#using-post-css-as-your-preprocessor
+2. Install TailwindCSS: https://tailwindcss.com/docs/installation
+3. Organize `input.css` & `output.css` into `src/styles` folder
+4. Building TailwindCSS: `npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch`

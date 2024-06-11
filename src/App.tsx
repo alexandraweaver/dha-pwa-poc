@@ -5,43 +5,43 @@
  * Last modified: 6-11-2024 by Alex Alden Weaver
 */
 
-import DhaBreathingExercise from './DhaBreathingExercise'
-import DhaGraph from './DhaGraph'
-import DhaSlider from './DhaSlider'
+import DhaBreathingExercise from './components/DhaBreathingExercise'
+import DhaGraph from './components/DhaGraph'
+import DhaSlider from './components/DhaSlider'
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 import './App.scss'
-import githubLogo from './assets/github.svg'
 
 function App() {
   return (
     <div className="App">
 
-    <div>
-        <DhaSlider/>
-      </div>
+      <Header/>
+      <br/><br/><br/>
 
-      <br/><br/>
-      
+      {/* DHA Components */}
       <div>
-        <DhaGraph/>
-      </div>
+        <div>
+          <DhaSlider/>
+        </div>
 
-      <br/><br/>
-      
-      <div>
-        <DhaBreathingExercise/>
+        <br/><br/>
+        
+        <div>
+          <DhaGraph/>
+        </div>
+
+        <br/><br/>
+        
+        <div>
+          <DhaBreathingExercise/>
+        </div>
       </div>
+      {/* End DHA Components */}
 
       <br/><br/><br/>
-      
-      <div className="card">
-        <a className="center" href="https://github.com/alexandraweaver" target="_blank">
-          <button className="credits">
-            <img src={githubLogo} className="logo github" alt="Vite logo" />
-            <p>Alex Alden Weaver</p>
-          </button>
-        </a>
-      </div>
+      <Footer/>
 
     </div>
   )

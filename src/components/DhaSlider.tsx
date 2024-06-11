@@ -13,17 +13,18 @@ function DhaSlider() {
     const [sliderValue, setSliderValue] = useState(50);
 
     return (
-    <div className="DhaSlider">
+        <div className="DhaSlider">
+            <h2>Relaxation Rater</h2>
+            <br/>
 
-        <Slider
-            lowerTag={'Relaxed'}
-            upperTag={'Anxious'}
-            label="Anxiety"
-            value={sliderValue}
-            onChange={setSliderValue}
-        />
-
-    </div>
+            <Slider
+                lowerTag={'Relaxed'}
+                upperTag={'Anxious'}
+                label="Anxiety"
+                value={sliderValue}
+                onChange={setSliderValue}
+            />
+        </div>
     )
 }
 

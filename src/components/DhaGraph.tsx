@@ -19,27 +19,28 @@ function DhaGraph() {
     ];
 
     return (
-    <div className="DhaGraph">
+        <div className="DhaGraph">
+            <h2>Mood Tracker</h2>
+            <br/>
 
-        <Graph
-            data={myData}
-            title="Mood Tracker"
-            dataKey="date"
-            dataLines={[
-                {
-                dataName: 'Anxiety',
-                lineName: 'Anxiety Level',
-                strokeColor: '#00c',
-                },
-                {
-                dataName: 'Depression',
-                lineName: 'Depression Level',
-                strokeColor: '#ff0800',
-                },
-            ]}
-        />
-
-    </div>
+            <Graph
+                data={myData}
+                title="Mood Tracker"
+                dataKey="date"
+                dataLines={[
+                    {
+                    dataName: 'Anxiety',
+                    lineName: 'Anxiety Level',
+                    strokeColor: '#00c',
+                    },
+                    {
+                    dataName: 'Depression',
+                    lineName: 'Depression Level',
+                    strokeColor: '#ff0800',
+                    },
+                ]}
+            />
+        </div>
     )
 }
 

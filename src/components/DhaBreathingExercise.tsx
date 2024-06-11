@@ -8,11 +8,13 @@
 import { BreathingExercise } from 'dha-breathing-exercise';
 
 function DhaBreathingExercise() {
-
     return (
-    <div className="DhaBreathingExercise">
-        <BreathingExercise gender={'male'} />
-    </div>
+        <div className="DhaBreathingExercise">
+            <h2>Breathing Exercise</h2>
+            <br/>
+
+            <BreathingExercise gender={'male'} />
+        </div>
     )
 }
 

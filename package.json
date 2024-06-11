@@ -11,6 +11,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dha-assets": "^2.4.0",
+    "dha-breathing-exercise": "^2.4.1",
     "dha-graph": "^2.3.1",
     "dha-slider": "^4.1.0",
     "react": "^18.2.0",

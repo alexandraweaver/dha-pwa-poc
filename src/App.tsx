@@ -5,6 +5,7 @@
  * Last modified: 6-11-2024 by Alex Alden Weaver
 */
 
+import DhaBreathingExercise from './DhaBreathingExercise'
 import DhaGraph from './DhaGraph'
 import DhaSlider from './DhaSlider'
 
@@ -23,6 +24,12 @@ function App() {
       
       <div>
         <DhaGraph/>
+      </div>
+
+      <br/><br/>
+      
+      <div>
+        <DhaBreathingExercise/>
       </div>
 
       <br/><br/><br/>

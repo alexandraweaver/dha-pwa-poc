@@ -16,6 +16,7 @@ NOTE: There is no PWA functionality in development mode.
 ## Instructions to Build for Deployment
 1. Follow Steps 1-3 from local instructions above
 2. Run `npm run build` to create production files
+3. The publish directory will be `./dist`
 
 ## Instructions to Run Production Build Locally
 1. Follow "Instructions to Build for Deployment"

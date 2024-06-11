@@ -1,3 +1,13 @@
+# Progressive Web App Proof of Concept (PWA POC)
+
+## About
+Author: Alex Alden Weaver
+Modified from template: https://github.com/MengLinMaker/PWA-Vite-React-Boilerplate
+Following tutorial: https://mobile.health.mil/dha-tutorial/#/
+
+
+## Template README
+
 <h1 align="center">
 PWA Vite React Boilerplate
 </h1>

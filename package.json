@@ -1,7 +1,9 @@
 {
-  "name": "pwa-vite-react-boilerplate",
+  "name": "dha-pwa-poc",
+  "author": "Alex Alden Weaver, modified from https://github.com/MengLinMaker/PWA-Vite-React-Boilerplate",
+  "description": "A proof of concept for a progressive web app using DHA components.",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,8 +11,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dha-graph": "^2.3.1",
+    "dha-slider": "^4.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.3.0"
+    "react-dom": "^18.3.0",
+    "recharts": "^2.12.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",

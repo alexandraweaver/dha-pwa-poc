@@ -5,6 +5,7 @@
  * Last modified: 6-11-2024 by Alex Alden Weaver
 */
 
+import DhaGraph from './DhaGraph'
 import DhaSlider from './DhaSlider'
 
 import './App.scss'
@@ -16,6 +17,12 @@ function App() {
 
     <div>
         <DhaSlider/>
+      </div>
+
+      <br/><br/>
+      
+      <div>
+        <DhaGraph/>
       </div>
 
       <br/><br/><br/>
